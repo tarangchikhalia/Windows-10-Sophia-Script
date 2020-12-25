@@ -790,7 +790,7 @@ DeviceRestartAfterUpdate -Enable
 	https://github.com/farag2/Windows-10-Sophia-Script/issues/43
 	https://github.com/microsoft/WSL/issues/5437
 #>
-# WSL -Enable
+WSL -Enable
 
 # Uninstall the Windows Subsystem for Linux (WSL)
 # Удалить подсистему Windows для Linux (WSL)
@@ -808,7 +808,7 @@ DeviceRestartAfterUpdate -Enable
 	https://github.com/microsoft/WSL/issues/5437
 	https://github.com/farag2/Windows-10-Sophia-Script/issues/43
 #>
-# EnableWSL2
+EnableWSL2
 
 <#
 	Disable swap file in WSL
@@ -870,15 +870,15 @@ syspin
 
 # Pin the "Control Panel" shortcut to Start within syspin
 # Закрепить ярлык "Панели управления" на начальном экране с помощью syspin
-PinControlPanel
+# PinControlPanel
 
 # Pin the old-style "Devices and Printers" shortcut to Start within syspin
 # Закрепить ярлык старого формата "Устройства и принтеры" на начальном экране с помощью syspin
-PinDevicesPrinters
+# PinDevicesPrinters
 
 # Pin the Command Prompt" shortcut to Start within syspin
 # Закрепить ярлык "Командная строка" на начальном экране с помощью syspin
-PinCommandPrompt
+# PinCommandPrompt
 #endregion Start menu
 
 #region UWP apps
